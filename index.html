@@ -1,0 +1,151 @@
+<!doctype html>
+<html data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tailwindcss & daisyUI  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<style>
+  .manrope{
+    font-family: "Manrope", sans-serif;
+  }
+</style>
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- tailwind CSS Config -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary_color: 'rgb(171, 239, 95)',
+          secondary_color: 'rgba(171, 239, 95, 0.5)',
+          third_color: 'rgba(171, 239, 95, 0.2)',
+          pink: 'rgb(231, 193, 211)',
+          yellow: '#da373d',
+          green: 'rgb(164, 218, 195)',
+          blue: 'rgb(119, 170, 234)',
+        }
+      }
+    }
+  }
+</script>
+</head>
+<body class="manrope bg-neutral-100">
+
+    <header class="bg-gradient-to-b from-neutral-200 ">
+      <!-- navigation bar -->
+      <div class="navbar max-w-screen-xl mx-auto">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li class="hover:text-primary_color transition-colors duration-300 ease-in-out  font-bold"><a>Home</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Services</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Portfolio</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Blogs</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="lg:text-2xl font-bold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="hover:text-primary_color transition-colors duration-300 ease-in-out  font-bold"><a>Home</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Services</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Portfolio</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Blogs</a></li>
+                <li class="hover:text-primary_color transition-colors duration-300 ease-in-out "><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a href="" class="bg-white rounded-full mr-4">
+            <i class="fa-solid fa-magnifying-glass px-2 py-2 "></i>
+          </a>
+          <a href="" class="bg-white rounded-full mr-4">
+            <i class="fa-solid fa-cart-shopping px-2 py-2 "></i>
+          </a>
+
+          <a class="btn bg-primary_color rounded-full hover:text-primary_color transition-colors duration-300 ease-in-out">Book Consult <i class="fa-solid fa-arrow-right px-1 -rotate-45 text-white bg-black py-1  rounded-full"></i></a>
+        </div>
+      </div>
+       <!-- hero section  -->
+        <section class="max-w-screen-xl mx-auto ">
+          <div class="flex flex-col text-center items-center justify-center">
+            <div class="mb-6">
+              <img src="assets/banner.png" alt="">
+            </div>
+            <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold mb-6">A barn house of this design has a <br> striking appearance</h1>
+            <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <a class="btn bg-secondary_color rounded-full hover:text-primary_color transition-colors duration-300 ease-in-out mt-8">Book Consult <i class="fa-solid fa-arrow-right px-1 -rotate-45 text-black bg-primary_color py-1  rounded-full"></i></a>
+          </div>
+        </section>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+      <!-- We design thoughtful section -->
+       <section>
+        <div class="relative right-8 py-5 ">
+          <img src="assets/Vector.png" alt="">
+        </div>
+        <a class="btn bg-white rounded-full hover:text-primary_color transition-colors duration-300 ease-in-out mb-4"><i class="fa-solid fa-arrow-right px-1 text-black"></i> Book Consult </a>
+        <div class="lg:flex">        
+          <div class="mr-9">
+            <!-- text area -->
+             <div> 
+              <h2 class="text-2xl lg:text-4xl font-bold mb-6 text-gray-700">
+                We design thoughtful,<br>liveable spaces
+              </h2>
+              <p class="mb-6 text-gray-500">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <div class="flex items-center bg-white rounded-lg p-6 mb-6">
+              <div class="mr-4"><img src="assets/commercial.png" alt=""></div>
+              <div>
+                <h4 class="font-bold text-2xl text-gray-700">Commercial</h4>
+              <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>            
+              </div>
+              
+                     
+             <div class="flex items-center bg-white rounded-lg p-6">
+              <div class="mr-4"><img src="assets/residential.png" alt=""></div>
+              <div>
+                <h4 class="font-bold text-2xl text-gray-700">Residential</h4>
+              <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              
+             </div>
+          </div>
+          <div>
+            <!-- image area  -->
+             <img src="assets/Rectangle.png" alt="">
+          </div>
+        </div>
+       </section>
+    </main>
+    <footer>
+      
+    </footer>
+  
+</body>
+</html>
